@@ -1,8 +1,7 @@
 import React from 'react'
-import { View, Text, Button, StyleSheet } from 'react-native'
+import { View, Text, Button, StyleSheet, FlatList } from 'react-native'
 import { useSelector, useDispatch } from 'react-redux';
 import { addToList, deleteFromList, updateList } from '../Actions.js/ReduxActions';
-import { FlatList } from 'react-native-gesture-handler';
 
 const ListItem = ({ item }) => {
   const dispatch = useDispatch();
