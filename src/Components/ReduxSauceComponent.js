@@ -1,7 +1,6 @@
 import React from 'react'
 import { View, Text, Button, StyleSheet } from 'react-native'
 import { useSelector, useDispatch } from 'react-redux';
-import { addToList, deleteFromList, updateList } from '../Actions.js/ReduxActions';
 import { FlatList } from 'react-native-gesture-handler';
 import { Creators } from '../Reducers/ReduxSauceReducer';
 
